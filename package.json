@@ -1,0 +1,29 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "bin": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^80.0.1",
+    "exceljs": "^3.8.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "protractor": "^5.4.3",
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+"pkg": {
+"scripts": [
+
+],
+"assets": [
+"node_modules/selenium-webdriver/**/*"
+]
+}
+}
